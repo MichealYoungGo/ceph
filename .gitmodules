@@ -18,20 +18,20 @@
 	url = https://github.com/ceph/ceph-erasure-code-corpus.git
 [submodule "src/googletest"]
 	path = src/googletest
-	url = https://github.com/ceph/googletest
+	url = git@github.com:google/googletest.git
 	branch = ceph-release-1.7.x
 [submodule "src/spdk"]
 	path = src/spdk
-	url = https://github.com/ceph/spdk.git
+	url = git@github.com:ceph/spdk.git
 [submodule "src/xxHash"]
 	path = src/xxHash
-	url = https://github.com/ceph/xxHash.git
+	url = git@github.com:ceph/xxHash.git
 [submodule "src/isa-l"]
 	path = src/isa-l
-	url = https://github.com/ceph/isa-l
+	url = https://github.com/ceph/isa-l.git
 [submodule "src/zstd"]
 	path = src/zstd
-	url = https://github.com/facebook/zstd
+	url = git@github.com:facebook/zstd.git
 [submodule "src/crypto/isa-l/isa-l_crypto"]
 	path = src/crypto/isa-l/isa-l_crypto
 	url = https://github.com/01org/isa-l_crypto
@@ -40,7 +40,7 @@
 	url = https://github.com/ceph/blkin
 [submodule "src/rapidjson"]
 	path = src/rapidjson
-	url = https://github.com/ceph/rapidjson
+	url = git@github.com:ceph/rapidjson.git
 [submodule "src/dmclock"]
 	path = src/dmclock
 	url = https://github.com/ceph/dmclock.git
@@ -49,7 +49,7 @@
 	url = https://github.com/ceph/seastar.git
 [submodule "src/fmt"]
 	path = src/fmt
-	url = https://github.com/ceph/fmt.git
+	url = git@github.com:ceph/fmt.git
 [submodule "src/c-ares"]
 	path = src/c-ares
 	url = https://github.com/ceph/c-ares.git
@@ -61,16 +61,16 @@
 	url = https://github.com/ceph/rook-client-python.git
 [submodule "s3select"]
 	path = src/s3select
-	url = https://github.com/ceph/s3select.git
+	url = git@github.com:ceph/s3select.git
 [submodule "src/jaegertracing/opentracing-cpp"]
 	path = src/jaegertracing/opentracing-cpp
 	url = https://github.com/opentracing/opentracing-cpp.git
 	branch = v1.6.0
 [submodule "src/jaegertracing/jaeger-client-cpp"]
 	path = src/jaegertracing/jaeger-client-cpp
-	url = https://github.com/ceph/jaeger-client-cpp.git
+	url = git@github.com:ceph/jaeger-client-cpp.git
 	branch = hunter-disabled
 [submodule "src/libkmip"]
 	path = src/libkmip
-	url = https://github.com/ceph/libkmip
+	url = git@github.com:ceph/libkmip.git
 	branch = ceph-master
